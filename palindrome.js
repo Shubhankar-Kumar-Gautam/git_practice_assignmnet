@@ -1,19 +1,19 @@
-  let str = naman;
-  let rev = "";
- 
- for(let i=str.length; i>=0; i++)
+let str ="naman"
+let rev = ""
+let flag=false
+for(let i=str.length-1; i>=0; i--)
 { 
-   rev+=str[i]
-  if(rev==str)
- {
-   flag=true;
- }
- }
-if(flag=true)
+ rev+=str[i]
+if(rev==str)
 {
-   console.log("Yes")
+ flag=true;
+}
+}
+if(flag==true)
+{
+ console.log("Yes")
 }
 else
 {
-    console.log("No")
+  console.log("No")
 } 
